@@ -1,0 +1,554 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Stuti Jain — Computer Science student and aspiring software developer.">
+  <meta name="theme-color" content="#0c0a12">
+  <title>Stuti Jain | Developer Portfolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home">SJ<span>.</span></a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">
+        <i data-lucide="menu"></i>
+      </button>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <button class="theme-toggle" id="themeToggle" aria-label="Switch color theme">
+        <i data-lucide="sun"></i>
+        <span>Light mode</span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HOME SECTION -->
+    <section class="hero section container" id="home">
+      <div class="hero-copy reveal">
+        <div class="availability">
+          <span class="status-dot"></span>
+          OPEN TO LEARNING & OPPORTUNITIES
+        </div>
+
+        <p class="eyebrow">HELLO, I'M</p>
+
+        <h1>Stuti <span>Jain.</span></h1>
+
+        <h2>
+          Computer Science Student
+          <span class="muted">/</span><br>
+          Aspiring Software Developer
+        </h2>
+
+        <p class="hero-description">
+          B.Tech Computer Science student with knowledge of C, C++, Python
+          and Data Structures & Algorithms. I am expanding my knowledge of
+          Artificial Intelligence and Machine Learning, and enjoy solving
+          problems, thinking logically and developing efficient software solutions.
+        </p>
+
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#projects">
+            Explore my work <i data-lucide="arrow-up-right"></i>
+          </a>
+
+          <a class="btn btn-secondary" href="#contact">
+            Get in touch <i data-lucide="mail"></i>
+          </a>
+        </div>
+
+        <div class="social-row">
+          <a href="https://github.com/stutijain8827-cmd"
+             target="_blank" rel="noreferrer"
+             aria-label="GitHub profile" class="social-link">
+            <i data-lucide="github"></i> GitHub
+          </a>
+
+          <a href="https://www.linkedin.com/in/stutijain12"
+             target="_blank" rel="noreferrer"
+             aria-label="LinkedIn profile" class="social-link">
+            <i data-lucide="linkedin"></i> LinkedIn
+          </a>
+
+          <span class="location">
+            <i data-lucide="map-pin"></i> Jaipur, India
+          </span>
+        </div>
+      </div>
+
+      <!-- DECORATIVE CODE DESIGN - NO PROFILE PHOTO -->
+      <div class="hero-art reveal" aria-label="Decorative developer code illustration">
+        <div class="orbit orbit-a"></div>
+        <div class="orbit orbit-b"></div>
+
+        <div class="code-window">
+          <div class="window-top">
+            <span></span>
+            <span></span>
+            <span></span>
+            <small>stuti.java</small>
+          </div>
+
+          <div class="code-lines">
+            <p><b>01</b> <span class="pink">public class</span> <span class="purple">Stuti</span> {</p>
+            <p><b>02</b> &nbsp; <span class="pink">String</span> focus = <span class="green">"Build"</span>;</p>
+            <p><b>03</b> &nbsp; <span class="pink">String</span> mindset = <span class="green">"Learn"</span>;</p>
+            <p><b>04</b> &nbsp; <span class="pink">boolean</span> curious = <span class="orange">true</span>;</p>
+            <p><b>05</b> &nbsp; <span class="comment">// always improving</span></p>
+            <p><b>06</b> }</p>
+          </div>
+
+          <div class="code-footer">
+            <span class="status-dot"></span>
+            Ready to create something
+          </div>
+        </div>
+
+        <div class="floating-chip chip-java">
+          <span>☕</span> Java
+        </div>
+
+        <div class="floating-chip chip-code">
+          <i data-lucide="code-2"></i> Full Stack
+        </div>
+
+        <div class="hero-glow"></div>
+      </div>
+
+      <a class="scroll-cue" href="#about">
+        <span></span> SCROLL TO EXPLORE
+      </a>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="section container" id="about">
+      <div class="section-heading reveal">
+        <p class="eyebrow">A LITTLE INTRODUCTION</p>
+        <h2>About <span>me</span></h2>
+      </div>
+
+      <div class="about-grid">
+        <article class="about-card glass reveal">
+          <div class="card-icon">
+            <i data-lucide="user-round"></i>
+          </div>
+
+          <h3>
+            Curious by nature.<br>
+            <span>Developer by choice.</span>
+          </h3>
+
+          <p>
+            I am a B.Tech Computer Science student at JECRC University.
+            I have a foundation in C, C++, Python and Data Structures &
+            Algorithms, and I am expanding my knowledge of Artificial
+            Intelligence and Machine Learning.
+          </p>
+
+          <p>
+            I enjoy problem-solving, logical thinking and developing
+            efficient software solutions. I am interested in exploring
+            AI concepts, search algorithms, intelligent systems and
+            machine learning.
+          </p>
+        </article>
+
+        <div class="about-side">
+          <div class="mini-card glass reveal">
+            <span class="mini-icon"><i data-lucide="graduation-cap"></i></span>
+            <div>
+              <strong>Computer Science</strong>
+              <small>B.Tech · JECRC University</small>
+            </div>
+          </div>
+
+          <div class="mini-card glass reveal">
+            <span class="mini-icon"><i data-lucide="laptop"></i></span>
+            <div>
+              <strong>Areas of interest</strong>
+              <small>Java · Full Stack · Software Development</small>
+            </div>
+          </div>
+
+          <div class="mini-card glass reveal">
+            <span class="mini-icon"><i data-lucide="rocket"></i></span>
+            <div>
+              <strong>What drives me</strong>
+              <small>Learning, building and solving problems</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section class="section container" id="skills">
+      <div class="section-heading reveal">
+        <p class="eyebrow">MY TOOLKIT</p>
+        <h2>Skills & <span>technologies</span></h2>
+        <p class="section-subtitle">
+          Technical knowledge and tools from my academic and project experience.
+        </p>
+      </div>
+
+      <div class="skills-grid">
+        <article class="skill-card glass reveal">
+          <i data-lucide="code-2"></i>
+          <h3>Programming Languages</h3>
+          <div class="tags">
+            <span>C</span><span>C++</span><span>Python</span>
+          </div>
+        </article>
+
+        <article class="skill-card glass reveal">
+          <i data-lucide="network"></i>
+          <h3>Data Structures & Algorithms</h3>
+          <div class="tags">
+            <span>Arrays</span>
+            <span>Linked Lists</span>
+            <span>Stacks</span>
+            <span>Queues</span>
+            <span>Trees</span>
+          </div>
+        </article>
+
+        <article class="skill-card glass reveal">
+          <i data-lucide="brain-circuit"></i>
+          <h3>Artificial Intelligence</h3>
+          <div class="tags">
+            <span>AI Fundamentals</span>
+            <span>Search Algorithms</span>
+            <span>Intelligent Systems</span>
+          </div>
+        </article>
+
+        <article class="skill-card glass reveal">
+          <i data-lucide="bot"></i>
+          <h3>Machine Learning</h3>
+          <div class="tags">
+            <span>Supervised Learning</span>
+            <span>Unsupervised Learning</span>
+            <span>Neural Networks</span>
+            <span>Reinforcement Learning</span>
+          </div>
+        </article>
+
+        <article class="skill-card glass reveal">
+          <i data-lucide="wrench"></i>
+          <h3>Tools & Technologies</h3>
+          <div class="tags">
+            <span>GitHub</span>
+            <span>VS Code</span>
+            <span>Canva</span>
+          </div>
+        </article>
+
+        <article class="skill-card glass reveal">
+          <i data-lucide="globe"></i>
+          <h3>Project Technologies</h3>
+          <div class="tags">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>Flask</span>
+            <span>NLTK</span>
+            <span>VADER</span>
+            <span>News API</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section class="section container" id="projects">
+      <div class="section-heading reveal">
+        <p class="eyebrow">SELECTED WORK</p>
+        <h2>Projects I’ve <span>built</span></h2>
+        <p class="section-subtitle">
+          A selection of academic and personal development work.
+        </p>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card glass reveal">
+          <div class="project-visual sentify-visual">
+            <div class="visual-top">
+              <span>SENTIFY / INSIGHTS</span>
+              <i data-lucide="activity"></i>
+            </div>
+
+            <div class="sentiment-bars">
+              <span style="height:68%"></span>
+              <span style="height:42%"></span>
+              <span style="height:84%"></span>
+              <span style="height:55%"></span>
+              <span style="height:96%"></span>
+              <span style="height:62%"></span>
+              <span style="height:76%"></span>
+            </div>
+
+            <div class="visual-labels">
+              <span>POSITIVE</span>
+              <span>NEUTRAL</span>
+              <span>NEGATIVE</span>
+            </div>
+          </div>
+
+          <div class="project-content">
+            <div class="project-meta">
+              <span class="project-number">01 / WEB APPLICATION</span>
+              <span class="project-status">FEATURED</span>
+            </div>
+
+            <h3>Sentify</h3>
+
+            <p>
+              A personalised, real-time news aggregation platform built using
+              Flask and News API. Implemented NLTK VADER sentiment analysis
+              for news classification, category-wise and sentiment-based
+              filtering, dynamic sentiment visualisation and an interactive
+              dashboard with a responsive, user-friendly interface.
+            </p>
+
+            <div class="tags">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+              <span>Python</span>
+              <span>NLTK</span>
+              <span>VADER</span>
+              <span>News API</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card glass reveal">
+          <div class="project-visual campus-visual">
+            <div class="campus-mark">
+              <i data-lucide="graduation-cap"></i>
+              <span>CAMPUS CONNECT</span>
+            </div>
+
+            <div class="campus-panels">
+              <span><i data-lucide="users"></i> Students</span>
+              <span><i data-lucide="briefcase-business"></i> Placements</span>
+              <span><i data-lucide="layout-dashboard"></i> Dashboard</span>
+            </div>
+          </div>
+
+          <div class="project-content">
+            <div class="project-meta">
+              <span class="project-number">02 / FULL-STACK APPLICATION</span>
+              <span class="project-status status-learning">IN DEVELOPMENT</span>
+            </div>
+
+            <h3>CampusConnect</h3>
+
+            <p>
+              An institute and placement management web application concept
+              designed around role-based dashboards and a shared database
+              for managing campus activities.
+            </p>
+
+            <div class="tags">
+              <span>Java</span>
+              <span>Spring Boot</span>
+              <span>Thymeleaf</span>
+              <span>MySQL</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- EDUCATION SECTION -->
+    <section class="section container" id="education">
+      <div class="section-heading reveal">
+        <p class="eyebrow">MY ACADEMIC BACKGROUND</p>
+        <h2>Education & <span>learning</span></h2>
+      </div>
+
+      <div class="timeline">
+        <article class="timeline-item glass reveal">
+          <div class="timeline-marker">
+            <i data-lucide="graduation-cap"></i>
+          </div>
+
+          <div>
+            <span class="timeline-label">UNDERGRADUATE</span>
+            <h3>B.Tech – Computer Science</h3>
+            <p class="timeline-place">JECRC University</p>
+            <p>Jaipur, Rajasthan</p>
+            <span class="timeline-date">2023 – 2027</span>
+          </div>
+        </article>
+
+        <article class="timeline-item glass reveal">
+          <div class="timeline-marker">
+            <i data-lucide="book-open"></i>
+          </div>
+
+          <div>
+            <span class="timeline-label">HIGHER SECONDARY · CLASS XII</span>
+            <h3>Divine Public School</h3>
+            <p class="timeline-place">Neemuch, Madhya Pradesh</p>
+            <p>Percentage: <strong>92%</strong></p>
+            <span class="timeline-date">2021 – 2022</span>
+          </div>
+        </article>
+
+        <article class="timeline-item glass reveal">
+          <div class="timeline-marker">
+            <i data-lucide="school"></i>
+          </div>
+
+          <div>
+            <span class="timeline-label">HIGH SCHOOL · CLASS X</span>
+            <h3>Veer Sanskar Academy</h3>
+            <p class="timeline-place">Neemuch, Madhya Pradesh</p>
+            <p>Percentage: <strong>83%</strong></p>
+            <span class="timeline-date">2019 – 2020</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- CERTIFICATIONS SECTION -->
+    <section class="section container" id="certifications">
+      <div class="section-heading reveal">
+        <p class="eyebrow">MILESTONES & ACHIEVEMENTS</p>
+        <h2>Certifications & <span>achievements</span></h2>
+        <p class="section-subtitle">
+          Training, hands-on workshops and recognition from academic events.
+        </p>
+      </div>
+
+      <div class="timeline">
+        <article class="timeline-item glass reveal">
+          <div class="timeline-marker">
+            <i data-lucide="award"></i>
+          </div>
+
+          <div>
+            <span class="timeline-label">TRAINING COMPLETION · 2026</span>
+            <h3>Certificate of Training Completion</h3>
+            <p class="timeline-place">Gladify Edutech Pvt. Ltd.</p>
+            <p>
+              Completed training covering concepts of Artificial Intelligence
+              and the basics of Machine Learning.
+            </p>
+          </div>
+        </article>
+
+        <article class="timeline-item glass reveal">
+          <div class="timeline-marker">
+            <i data-lucide="cloud-cog"></i>
+          </div>
+
+          <div>
+            <span class="timeline-label">WORKSHOP · 2025</span>
+            <h3>Salesforce Developer Workshop</h3>
+            <p class="timeline-place">AI Builders Day</p>
+            <p>
+              Built an AI-powered agent on the Salesforce platform during
+              a hands-on workshop.
+            </p>
+          </div>
+        </article>
+
+        <article class="timeline-item glass reveal">
+          <div class="timeline-marker">
+            <i data-lucide="trophy"></i>
+          </div>
+
+          <div>
+            <span class="timeline-label">HACKATHON · 2025</span>
+            <h3>JECRC Hack Quest 8.0</h3>
+            <p class="timeline-place">Top 12 finalist out of 600 teams</p>
+            <p>
+              Selected for the final pitch round based on technical innovation
+              and project viability.
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="section container contact-section" id="contact">
+      <div class="contact-card glass reveal">
+        <div class="section-heading">
+          <p class="eyebrow">HAVE A PROJECT IN MIND?</p>
+          <h2>Let’s create something <span>meaningful.</span></h2>
+          <p class="section-subtitle">
+            I’m open to connecting about opportunities, collaboration
+            and interesting software projects.
+          </p>
+        </div>
+
+        <div class="contact-actions">
+          <a class="btn btn-primary" href="mailto:stutijain8827@gmail.com">
+            <i data-lucide="mail"></i> Email me
+          </a>
+
+          <a class="btn btn-secondary" href="tel:+919754118827">
+            <i data-lucide="phone"></i> +91 97541 18827
+          </a>
+
+          <a class="btn btn-secondary"
+             href="https://www.linkedin.com/in/stutijain12"
+             target="_blank" rel="noreferrer">
+            <i data-lucide="linkedin"></i> LinkedIn
+          </a>
+
+          <a class="btn btn-secondary"
+             href="https://github.com/stutijain8827-cmd"
+             target="_blank" rel="noreferrer">
+            <i data-lucide="github"></i> GitHub
+          </a>
+        </div>
+
+        <p class="contact-note">
+          Feel free to connect with me by email or through my professional profiles.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer container">
+    <a class="brand" href="#home">SJ<span>.</span></a>
+    <p>Designed & built by Stuti Jain</p>
+    <p>© <span id="year"></span> Stuti Jain. All rights reserved.</p>
+  </footer>
+
+  <button class="back-top" id="backTop" aria-label="Back to top">
+    <i data-lucide="arrow-up"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
